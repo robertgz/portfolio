@@ -14,7 +14,8 @@
           <div v-html="item.text">{{item.text}}</div>
           <ul>
             <li v-for="bullet in item.bullets"
-              v-bind:key="bullet.id">
+              v-bind:key="bullet.id"
+              v-html="bullet.text">
               {{ bullet.text }}
             </li>
           </ul>
@@ -37,15 +38,15 @@ export default {
         {
           id: 0, 
           imageURL: require('../assets/qwert_thumb.png'),
-          title: "Programing Example - 3D Spinning Shapes",
+          title: "3D Spinning Shapes - Programming Example",
           text: "Pressing any of the letters <strong>q, w, e, r, t</strong> on the keyboard causes a labeled cube to rotate in one direction. Pressing the letters <strong>a, s, d, f, g</strong> causes a cube to rotate in the opposite direction.",
           bullets: [
-            { id: 0, text: "Uses three.js library and Javascript"},
+            { id: 0, text: "Uses Javascript and the three.js library"},
             { id: 1, text: "Shapes modeled in Blender"},
-            { id: 2, text: "Git source:"},
+            { id: 2, text: "<a href='https://gitlab.com/robertgz/3d-spinning-shapes'>Git source on GitLab</a>"},
             { id: 3, text: "Created: November 2018"},
           ],
-          locationURL: "#"
+          locationURL: "3d-spinning-shapes/"
         },
         {
           id: 1, 
@@ -54,7 +55,6 @@ export default {
           text: "Webpage listing courses, certificates, degrees, and schedules for the Computer Aided Design and Drafting program at Southwestern College in Chula Vista, CA.",
           bullets: [
             { id: 0, text: "Uses Bootstrap, HTML, CSS"},
-            { id: 1, text: "Git source: "},
             { id: 2, text: "Designed: Fall 2016"},
           ],
           locationURL: "https://dept.swccd.edu/cad/demo/"
