@@ -57,7 +57,7 @@ export default {
             { id: 0, text: "Uses Bootstrap, HTML, CSS"},
             { id: 2, text: "Designed: Fall 2016"},
           ],
-          locationURL: "https://dept.swccd.edu/cad/demo/"
+          locationURL: "https://dept.swccd.edu/cad/"
         }
       ]
     }
