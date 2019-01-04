@@ -2,7 +2,7 @@
   <v-app >
     <v-toolbar app class="grey lighten-2">
       <v-toolbar-title class="headline">
-        Samples -- by Robert Garza
+        Portfolio -- by Robert Garza
       </v-toolbar-title>
     </v-toolbar>
 
@@ -32,7 +32,7 @@ export default {
   data () {
     return {
       footer: {
-        text: "&copy; 2018  —  Page created using Vue and Vuetify — ",
+        text: "&copy; 2019 Robert Garza | Page created using Vue and Vuetify — ",
         giturl: "https://gitlab.com/robertgz/portfolio"
       }
     }
