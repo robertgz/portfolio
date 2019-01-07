@@ -10,15 +10,18 @@
           height="200">
         </v-img>
         <v-card-title primary-title>
-          <span class="headline">{{item.title}}</span>
-          <div v-html="item.text">{{item.text}}</div>
-          <ul>
-            <li v-for="bullet in item.bullets"
-              v-bind:key="bullet.id"
-              v-html="bullet.text">
-              {{ bullet.text }}
-            </li>
-          </ul>
+          <div>
+            <span class="headline">{{item.title}}</span><br>
+            <span v-html="item.text">{{item.text}}</span><br>
+            <ul>
+              <li v-for="bullet in item.bullets"
+                v-bind:key="bullet.id"
+                v-html="bullet.text">
+                {{ bullet.text }}
+              </li>
+            </ul>            
+          </div>
+
         </v-card-title>
         <v-card-actions>
           <v-btn :href="item.locationURL" >View</v-btn>
@@ -70,7 +73,75 @@ export default {
             { id: 1, text: "Designed: Fall 2016"},
           ],
           locationURL: "https://dept.swccd.edu/cad/"
-        }
+        },
+        {
+          id: 3, 
+          imageURL: require('../assets/calculator.png'),
+          title: "Calculator", 
+          text: "Created as a project while working through the <a href='https://www.freecodecamp.org/robertgz'>freeCodeCamp</a> curriculum.",
+          bullets: [
+            { id: 0, text: "Shows use of Bootstrap, HTML, and CSS"},
+            { id: 1, text: "Uses JavaScript, jQuery"},
+            { id: 2, text: "<a href='https://codepen.io/rb842/pen/YGWdaQ'>Source code on CodePen</a>"},
+            { id: 3, text: "Created: September 2016 & May 2018"},
+          ],
+          locationURL: "https://codepen.io/rb842/full/YGWdaQ"
+        },
+
+        // {
+        //   id: 4, 
+        //   imageURL: require('../assets/wikipedia_viewer.png'),
+        //   title: "Twitch", 
+        //   text: "Created as a project while working through the <a href='https://www.freecodecamp.org/robertgz'>freeCodeCamp</a> curriculum.",
+        //   bullets: [
+        //     { id: 0, text: "Shows use of Bootstrap, HTML, and CSS"},
+        //     { id: 1, text: "Uses JavaScript, jQuery, and the Twitch API"},
+        //     { id: 2, text: "<a href='https://codepen.io/rb842/pen/PGYREo'>Source code on CodePen</a>"},
+        //     { id: 3, text: "Created: August & September 2016"},
+        //   ],
+        //   locationURL: "https://codepen.io/rb842/full/PGYREo"
+        // },
+
+        {
+          id: 5, 
+          imageURL: require('../assets/wikipedia_viewer.png'),
+          title: "Wikipedia Viewer", 
+          text: "Created as a project while working through the <a href='https://www.freecodecamp.org/robertgz'>freeCodeCamp</a> curriculum.",
+          bullets: [
+            { id: 0, text: "Shows use of Bootstrap, HTML, and CSS"},
+            { id: 1, text: "Uses JavaScript, jQuery, and the wikipedia.org API"},
+            { id: 2, text: "<a href='https://codepen.io/rb842/pen/QEZEmg'>Source code on CodePen</a>"},
+            { id: 3, text: "Created: August 2016"},
+          ],
+          locationURL: "https://codepen.io/rb842/full/QEZEmg/"
+        },
+        {
+          id: 6, 
+          imageURL: require('../assets/local_weather.png'),
+          title: "Local Weather", 
+          text: "Uses an external API to lookup the browser's IP address and location then uses the response to send to another API to get the weather. Created as a project while working through the <a href='https://www.freecodecamp.org/robertgz'>freeCodeCamp</a> curriculum.",
+          bullets: [
+            { id: 0, text: "Shows use of Bootstrap and HTML"},
+            { id: 1, text: "Uses JavaScript, jQuery, ipinfo.io and openweathermap.org API"},
+            { id: 2, text: "<a href='https://codepen.io/rb842/pen/EyzqYx'>Source code on CodePen</a>"},
+            { id: 3, text: "Created: August 2016"},
+          ],
+          locationURL: "https://codepen.io/rb842/full/EyzqYx"
+        },
+
+        {
+          id: 7, 
+          imageURL: require('../assets/random_quote_machine.png'),
+          title: "Random Quote Machine", 
+          text: "Created as a project while working through the <a href='https://www.freecodecamp.org/robertgz'>freeCodeCamp</a> curriculum.",
+          bullets: [
+            { id: 0, text: "Shows use of Bootstrap, HTML, and CSS"},
+            { id: 1, text: "Uses JavaScript, jQuery, and the wikipedia.org API"},
+            { id: 2, text: "<a href='https://codepen.io/rb842/pen/vKroWj'>Source code on CodePen</a>"},
+            { id: 3, text: "Created: August 2016"},
+          ],
+          locationURL: "https://codepen.io/rb842/full/vKroWj/"
+        },        
       ]
     }
   }
