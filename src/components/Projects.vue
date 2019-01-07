@@ -91,13 +91,13 @@ export default {
         {
           id: 4, 
           imageURL: require('../assets/twitch_streamers.png'),
-          title: "Twitch", 
+          title: "Twitch Streamers", 
           text: "Created as a project while working through the <a href='https://www.freecodecamp.org/robertgz'>freeCodeCamp</a> curriculum.",
           bullets: [
             { id: 0, text: "Shows use of Bootstrap and HTML"},
             { id: 1, text: "Uses JavaScript, jQuery, and the Twitch API"},
             { id: 2, text: "<a href='https://codepen.io/rb842/pen/PGYREo'>Source code on CodePen</a>"},
-            { id: 3, text: "Created: August & September 2016"},
+            { id: 3, text: "Created: August & September 2016 (updated January 2019)"},
           ],
           locationURL: "https://codepen.io/rb842/full/PGYREo"
         },
