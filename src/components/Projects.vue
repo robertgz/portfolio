@@ -82,10 +82,10 @@ export default {
           bullets: [
             { id: 0, text: "Shows use of Bootstrap, HTML, and CSS"},
             { id: 1, text: "Uses JavaScript, jQuery"},
-            { id: 2, text: "<a href='https://codepen.io/rb842/pen/YGWdaQ'>Source code on CodePen</a>"},
+            { id: 2, text: "<a href='https://github.com/robertgz/JavaScript-Calculator'>Source code on GitHub</a>"},
             { id: 3, text: "Created: September 2016 & May 2018"},
           ],
-          locationURL: "https://codepen.io/rb842/full/YGWdaQ"
+          locationURL: "https://robertgz.github.io/JavaScript-Calculator/"
         },
 
         {
@@ -96,10 +96,10 @@ export default {
           bullets: [
             { id: 0, text: "Shows use of Bootstrap and HTML"},
             { id: 1, text: "Uses JavaScript, jQuery, and the Twitch API"},
-            { id: 2, text: "<a href='https://codepen.io/rb842/pen/PGYREo'>Source code on CodePen</a>"},
+            { id: 2, text: "<a href='https://github.com/robertgz/Twitch-Streamers'>Source code on GitHub</a>"},
             { id: 3, text: "Created: August & September 2016 (updated January 2019)"},
           ],
-          locationURL: "https://codepen.io/rb842/full/PGYREo"
+          locationURL: "https://robertgz.github.io/Twitch-Streamers/"
         },
 
         {
@@ -110,10 +110,10 @@ export default {
           bullets: [
             { id: 0, text: "Shows use of Bootstrap, HTML, and CSS"},
             { id: 1, text: "Uses JavaScript, jQuery, and the wikipedia.org API"},
-            { id: 2, text: "<a href='https://codepen.io/rb842/pen/QEZEmg'>Source code on CodePen</a>"},
+            { id: 2, text: "<a href='https://github.com/robertgz/Wikipedia-Viewer'>Source code on GitHub</a>"},
             { id: 3, text: "Created: August 2016"},
           ],
-          locationURL: "https://codepen.io/rb842/full/QEZEmg/"
+          locationURL: "https://robertgz.github.io/Wikipedia-Viewer/"
         },
         {
           id: 6, 
@@ -123,10 +123,10 @@ export default {
           bullets: [
             { id: 0, text: "Shows use of Bootstrap and HTML"},
             { id: 1, text: "Uses JavaScript, jQuery, ipinfo.io and openweathermap.org API"},
-            { id: 2, text: "<a href='https://codepen.io/rb842/pen/EyzqYx'>Source code on CodePen</a>"},
+            { id: 2, text: "<a href='https://github.com/robertgz/Local-Weather'>Source code on GitHub</a>"},
             { id: 3, text: "Created: August 2016"},
           ],
-          locationURL: "https://codepen.io/rb842/full/EyzqYx"
+          locationURL: "https://robertgz.github.io/Local-Weather/"
         },
 
         {
@@ -137,10 +137,10 @@ export default {
           bullets: [
             { id: 0, text: "Shows use of Bootstrap, HTML, and CSS"},
             { id: 1, text: "Uses JavaScript, jQuery, and the wikipedia.org API"},
-            { id: 2, text: "<a href='https://codepen.io/rb842/pen/vKroWj'>Source code on CodePen</a>"},
+            { id: 2, text: "<a href='https://github.com/robertgz/Random-Quote-Machine'>Source code on GitHub</a>"},
             { id: 3, text: "Created: August 2016"},
           ],
-          locationURL: "https://codepen.io/rb842/full/vKroWj/"
+          locationURL: "https://robertgz.github.io/Random-Quote-Machine/"
         },        
       ]
     }
