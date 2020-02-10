@@ -2,7 +2,7 @@
   <v-app >
     <v-toolbar app class="grey lighten-2">
       <v-toolbar-title class="headline">
-        Portfolio -- by Robert Garza
+        Programming Projects -- by Robert Garza
       </v-toolbar-title>
     </v-toolbar>
 
@@ -15,7 +15,7 @@
     <v-footer class="pa-3 grey lighten-2 justify-center">
       <div>        
         <span v-html="footer.text">{{ footer.text }}</span>
-        <a :href="footer.giturl">GitLab source</a>
+        <a :href="footer.giturl">GitHub source</a>
       </div>
     </v-footer>
   </v-app>
@@ -32,8 +32,8 @@ export default {
   data () {
     return {
       footer: {
-        text: "&copy; 2019 Robert Garza | Page created using Vue and Vuetify — ",
-        giturl: "https://gitlab.com/robertgz/portfolio"
+        text: "&copy; 2020 Robert Garza | Page created using Vue and Vuetify — ",
+        giturl: "https://github.com/robertgz/portfolio"
       }
     }
   }

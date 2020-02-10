@@ -45,10 +45,10 @@ export default {
           text: "Application that takes text as input and converts it into several different text cases such as upper and lower case.",
           bullets: [
             { id: 0, text: "Shows use of Javascript, React, and reactstrap"},
-            { id: 1, text: "<a href='https://gitlab.com/robertgz/case-converter'>Source code on GitLab</a>"},
+            { id: 1, text: "<a href='https://github.com/robertgz/case-converter'>Source code on GitHub</a>"},
             { id: 2, text: "Created: December 2018"},
           ],
-          locationURL: "case-converter/"
+          locationURL: "../case-converter/"
         },        
         {
           id: 1, 
@@ -58,10 +58,10 @@ export default {
           bullets: [
             { id: 0, text: "Shows use of Javascript and three.js"},
             { id: 1, text: "Shapes modeled in Blender"},
-            { id: 2, text: "<a href='https://gitlab.com/robertgz/3d-spinning-shapes'>Source code on GitLab</a>"},
+            { id: 2, text: "<a href='https://github.com/robertgz/3d-spinning-shapes'>Source code on GitHub</a>"},
             { id: 3, text: "Created: November 2018"},
           ],
-          locationURL: "3d-spinning-shapes/"
+          locationURL: "../3d-spinning-shapes/"
         },
         {
           id: 2, 
