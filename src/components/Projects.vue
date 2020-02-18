@@ -39,7 +39,19 @@ export default {
     return {
       samples: [
         {
-          id: 0, 
+          id: 2, 
+          imageURL: require('../assets/3d-shape-viewer.png'),
+          title: "3D Shape Viewer", 
+          text: "Create and transform basic 3D shapes.",
+          bullets: [
+            { id: 0, text: "Shows use of Javascript, Vue, and three"},
+            { id: 1, text: "<a href='https://github.com/robertgz/3d-project'>Source code on GitHub</a>"},
+            { id: 2, text: "Started: December 2019"},
+          ],
+          locationURL: "https://robertgz.github.io/3d-project/"
+        },        
+        {
+          id: 3, 
           imageURL: require('../assets/case-converter.png'),
           title: "Case Converter in React", 
           text: "Application that takes text as input and converts it into several different text cases such as upper and lower case.",
@@ -51,7 +63,7 @@ export default {
           locationURL: "../case-converter/"
         },        
         {
-          id: 1, 
+          id: 4, 
           imageURL: require('../assets/qwert_thumb.png'),
           title: "3D Spinning Shapes - JavaScript",
           text: "Pressing any of the letters <strong>q, w, e, r, t</strong> on the keyboard causes a labeled cube to rotate in one direction. Pressing the letters <strong>a, s, d, f, g</strong> causes a cube to rotate in the opposite direction.",
@@ -64,7 +76,7 @@ export default {
           locationURL: "../3d-spinning-shapes/"
         },
         {
-          id: 2, 
+          id: 5, 
           imageURL: require('../assets/cad_at_swc.png'),
           title: "College Program Webpage", 
           text: "Webpage listing courses, certificates, degrees, and schedules for the Computer Aided Design and Drafting program at Southwestern College in Chula Vista, CA.",
@@ -75,7 +87,7 @@ export default {
           locationURL: "https://dept.swccd.edu/cad/"
         },
         {
-          id: 3, 
+          id: 6, 
           imageURL: require('../assets/calculator.png'),
           title: "Calculator", 
           text: "Created as a project while working through the <a href='https://www.freecodecamp.org/robertgz'>freeCodeCamp</a> curriculum.",
@@ -89,7 +101,7 @@ export default {
         },
 
         {
-          id: 4, 
+          id: 7, 
           imageURL: require('../assets/twitch_streamers.png'),
           title: "Twitch Streamers", 
           text: "Created as a project while working through the <a href='https://www.freecodecamp.org/robertgz'>freeCodeCamp</a> curriculum.",
@@ -103,7 +115,7 @@ export default {
         },
 
         {
-          id: 5, 
+          id: 8, 
           imageURL: require('../assets/wikipedia_viewer.png'),
           title: "Wikipedia Viewer", 
           text: "Created as a project while working through the <a href='https://www.freecodecamp.org/robertgz'>freeCodeCamp</a> curriculum.",
@@ -116,7 +128,7 @@ export default {
           locationURL: "https://robertgz.github.io/Wikipedia-Viewer/"
         },
         {
-          id: 6, 
+          id: 9, 
           imageURL: require('../assets/local_weather.png'),
           title: "Local Weather", 
           text: "Uses an external API to lookup the browser's IP address and location then uses the response to send to another API to get the weather. Created as a project while working through the <a href='https://www.freecodecamp.org/robertgz'>freeCodeCamp</a> curriculum.",
@@ -130,7 +142,7 @@ export default {
         },
 
         {
-          id: 7, 
+          id: 10, 
           imageURL: require('../assets/random_quote_machine.png'),
           title: "Random Quote Machine", 
           text: "Created as a project while working through the <a href='https://www.freecodecamp.org/robertgz'>freeCodeCamp</a> curriculum.",
