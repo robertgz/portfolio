@@ -60,7 +60,7 @@ export default {
             { id: 1, text: "<a href='https://github.com/robertgz/case-converter'>Source code on GitHub</a>"},
             { id: 2, text: "Created: December 2018"},
           ],
-          locationURL: "../case-converter/"
+          locationURL: "https://robertgz.github.io/case-converter/"
         },        
         {
           id: 4, 
@@ -73,7 +73,7 @@ export default {
             { id: 2, text: "<a href='https://github.com/robertgz/3d-spinning-shapes'>Source code on GitHub</a>"},
             { id: 3, text: "Created: November 2018"},
           ],
-          locationURL: "../3d-spinning-shapes/"
+          locationURL: "https://robertgz.github.io/3d-spinning-shapes/"
         },
         {
           id: 5, 
