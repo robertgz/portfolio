@@ -6,7 +6,7 @@ import VueGtm from 'vue-gtm';
 Vue.config.productionTip = false
 
 Vue.use(VueGtm, {
-  id: process.env.NODE_ENV === 'production' ? 'GTM-KWRLK7J' : 'GTM-MZ3LVQD',
+  id: 'GTM-KWRLK7J',
   // queryParams: { // Add url query string when load gtm.js with GTM ID (optional)
   //   gtm_auth:'AB7cDEf3GHIjkl-MnOP8qr',
   //   gtm_preview:'env-4',
