@@ -41,14 +41,14 @@ export default {
         {
           id: 2, 
           imageURL: require('../assets/3d-shape-viewer.png'),
-          title: "3D Shape Viewer", 
+          title: "3D Shape Builder", 
           text: "Create and transform basic 3D shapes.",
           bullets: [
             { id: 0, text: "Shows use of Javascript, Vue, and three"},
-            { id: 1, text: "<a href='https://github.com/robertgz/3d-project'>Source code on GitHub</a>"},
+            { id: 1, text: "<a href='https://github.com/robertgz/3d-shape-builder'>Source code on GitHub</a>"},
             { id: 2, text: "Started: December 2019"},
           ],
-          locationURL: "https://robertgz.github.io/3d-project/"
+          locationURL: "https://robertgz.github.io/3d-shape-builder/"
         },        
         {
           id: 3, 
