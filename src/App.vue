@@ -2,7 +2,7 @@
   <v-app >
     <v-toolbar app class="grey lighten-2">
       <v-toolbar-title class="headline">
-        Programming Projects -- by Robert Garza
+        Software Development Projects -- by Robert Garza
       </v-toolbar-title>
     </v-toolbar>
 
@@ -32,7 +32,7 @@ export default {
   data () {
     return {
       footer: {
-        text: "&copy; 2020 Robert Garza | Page created using Vue and Vuetify — ",
+        text: "&copy; 2023 Robert Garza | Page created using Vue and Vuetify — ",
         giturl: "https://github.com/robertgz/portfolio"
       }
     }

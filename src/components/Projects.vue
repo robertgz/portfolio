@@ -82,9 +82,10 @@ export default {
           text: "Webpage listing courses, certificates, degrees, and schedules for the Computer Aided Design and Drafting program at Southwestern College in Chula Vista, CA.",
           bullets: [
             { id: 0, text: "Shows use of Bootstrap, HTML, and CSS"},
-            { id: 1, text: "Designed: Fall 2016"},
+            { id: 1, text: "<a href='https://github.com/robertgz/swc-cad-website'>Source code on GitHub</a>"},
+            { id: 2, text: "Designed: Fall 2016"},
           ],
-          locationURL: "https://dept.swccd.edu/cad/"
+          locationURL: "https://robertgz.github.io/swc-cad-website/"
         },
         {
           id: 6, 
