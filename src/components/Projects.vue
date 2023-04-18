@@ -44,7 +44,7 @@ export default {
           title: "Transparency Dashboard", 
           text: "Build front-end Angular components, graphical charts, site routing, data fetching from backend, and data flow between components. Designed database schema, queries, data fetching and processing from SD City website.  Developed 80% of the current front-end code and 100% of the back-end code.",
           bullets: [
-            { id: 0, text: "Front-end: Angular, eCharts, Material-ui, GraphQL."},
+            { id: 0, text: "Front-end: Angular, ECharts, Material-ui, GraphQL."},
             { id: 1, text: "<a href='https://github.com/opensandiego/sdvv-frontend'>Front-end source code on GitHub</a>"},
             { id: 0, text: "Back-end: NestJS, NodeJS, TypeORM, PostgreSQL."},
             { id: 1, text: "<a href='https://github.com/opensandiego/sdvv-backend'>Back-end source code on GitHub</a>"},
@@ -58,7 +58,7 @@ export default {
           title: "Dataset Metrics Demo", 
           text: "React Demo for image grouping.",
           bullets: [
-            { id: 0, text: "Shows use of React, NextJS, and ECharts."},
+            { id: 0, text: "Shows use of React, Next.js, and ECharts."},
             { id: 1, text: "<a href='https://github.com/robertgz/ml-ops'>Source code on GitHub</a>"},
             { id: 2, text: "Worked on in September 2022."},
           ],
@@ -70,7 +70,7 @@ export default {
           title: "3D Shape Builder", 
           text: "Create and transform basic 3D shapes.",
           bullets: [
-            { id: 0, text: "Shows use of Javascript, Vue, and three"},
+            { id: 0, text: "Shows use of Javascript, Vue 2, and Three.js"},
             { id: 1, text: "<a href='https://github.com/robertgz/3d-shape-builder'>Source code on GitHub</a>"},
             { id: 2, text: "Started: December 2019"},
           ],
