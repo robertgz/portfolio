@@ -53,6 +53,18 @@ export default {
           locationURL: "https://followthemoneysandiego.org/"
         },        
         {
+          id: 'dsm', 
+          imageURL: require('../assets/dataset-metrics.png'),
+          title: "Dataset Metrics Demo", 
+          text: "React Demo for image grouping.",
+          bullets: [
+            { id: 0, text: "Shows use of React, NextJS, and ECharts."},
+            { id: 1, text: "<a href='https://github.com/robertgz/ml-ops'>Source code on GitHub</a>"},
+            { id: 2, text: "Worked on in September 2022."},
+          ],
+          locationURL: "https://robertgz.github.io/ml-ops/"
+        },        
+        {
           id: 2, 
           imageURL: require('../assets/3d-shape-viewer.png'),
           title: "3D Shape Builder", 
