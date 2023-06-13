@@ -4,11 +4,13 @@
       v-for="item in samples"
       v-bind:key="item.id" >
       <v-card href height="100%" >
-        <v-img
-          :src=item.imageURL
-          class="my-3"
-          height="200">
-        </v-img>
+        <a target="_blank" :href=item.locationURL>
+          <v-img
+            :src=item.imageURL
+            class="my-3"
+            height="200">
+          </v-img>
+        </a>
         <v-card-title primary-title>
           <div>
             <span class="headline">{{item.title}}</span><br>
@@ -24,7 +26,7 @@
 
         </v-card-title>
         <v-card-actions>
-          <v-btn :href="item.locationURL" >View</v-btn>
+          <v-btn target="_blank" :href="item.locationURL" >View</v-btn>
         </v-card-actions>
       </v-card>
     </v-flex>
