@@ -39,16 +39,27 @@ export default {
     return {
       samples: [
         {
+          id: "cdv", 
+          imageURL: require('../assets/campaign_disclosure_viewer.png'),
+          title: "Campaign Disclosure Viewer",
+          text: 'Shows Campaign Disclosure data for city elections. Downloads public data from spreadsheets and stores it in MongoDB. Uses React and Next.js with server side rendering and data fetching.',
+          bullets: [
+            { id: 0, text: "Front-end: React, Next.js, ECharts, Tailwind." },
+            { id: 1, text: "Database: MongoDB." },
+          ],
+          locationURL: "https://committee-viewer.vercel.app/csd"
+        },
+        {
           id: "tdb", 
           imageURL: require('../assets/transparency_dashboard.png'),
-          title: "Transparency Dashboard", 
-          text: "Build front-end Angular components, graphical charts, site routing, data fetching from backend, and data flow between components. Designed database schema, queries, data fetching and processing from SD City website.  Developed 80% of the current front-end code and 100% of the back-end code.",
+          title: "Transparency Dashboard",
+          text: "Built front-end Angular components, graphical charts, site routing, data fetching from backend, and data flow between components. Designed database schema, queries, data fetching and processing from SD City website.  Developed 80% of the current front-end code and 100% of the back-end code.",
           bullets: [
             { id: 0, text: "Front-end: Angular, ECharts, Material-ui, GraphQL."},
             { id: 1, text: "<a href='https://github.com/opensandiego/sdvv-frontend'>Front-end source code on GitHub</a>"},
-            { id: 0, text: "Back-end: NestJS, NodeJS, TypeORM, PostgreSQL."},
-            { id: 1, text: "<a href='https://github.com/opensandiego/sdvv-backend'>Back-end source code on GitHub</a>"},
-            { id: 2, text: "Worked on the project 20 to 30 hours/week."},
+            { id: 2, text: "Back-end: NestJS, NodeJS, TypeORM, PostgreSQL."},
+            { id: 3, text: "<a href='https://github.com/opensandiego/sdvv-backend'>Back-end source code on GitHub</a>"},
+            { id: 4, text: "Worked on the project 20 to 30 hours/week."},
           ],
           locationURL: "https://followthemoneysandiego.org/"
         },        
