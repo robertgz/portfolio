@@ -46,7 +46,7 @@ export default {
           title: "California Campaign Finance Viewer",
           text: 'Public data viewer for city and county agencies in the state of California.',
           bullets: [
-            { id: 0, text: "React, Next.js, ECharts, MUI." },
+            { id: 0, text: "Typescript, React, Next.js, ECharts, MUI." },
             { id: 0, text: "Deployed on AWS using SST.dev." },
           ],
           locationURL: "https://www.localiviewer.com"
