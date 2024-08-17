@@ -41,6 +41,18 @@ export default {
     return {
       samples: [
         {
+          id: "clv", 
+          imageURL: require('../assets/ca_local_agency_viewer.png'),
+          title: "California Campaign Finance Viewer",
+          text: 'Public data viewer for city and county agencies in the state of California.',
+          bullets: [
+            { id: 0, text: "React, Next.js, ECharts, MUI." },
+            { id: 0, text: "Deployed on AWS using SST.dev." },
+          ],
+          locationURL: "https://www.localiviewer.com"
+        },
+
+        {
           id: "cdv", 
           imageURL: require('../assets/campaign_disclosure_viewer.png'),
           title: "Campaign Disclosure Viewer",
