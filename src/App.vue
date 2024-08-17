@@ -32,7 +32,7 @@ export default {
   data () {
     return {
       footer: {
-        text: "&copy; 2023 Robert Garza | Page created using Vue and Vuetify — ",
+        text: "&copy; 2024 Robert Garza | Page created using Vue and Vuetify — ",
         giturl: "https://github.com/robertgz/portfolio"
       }
     }
