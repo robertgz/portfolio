@@ -152,19 +152,19 @@ export default {
           locationURL: "https://robertgz.github.io/JavaScript-Calculator/"
         },
 
-        {
-          id: 7, 
-          imageURL: require('../assets/twitch_streamers.png'),
-          title: "Twitch Streamers", 
-          text: "Created as a project while working through the <a href='https://www.freecodecamp.org/robertgz'>freeCodeCamp</a> curriculum.",
-          bullets: [
-            { id: 0, text: "Shows use of Bootstrap and HTML"},
-            { id: 1, text: "Uses JavaScript, jQuery, and the Twitch API"},
-            { id: 2, text: "<a href='https://github.com/robertgz/Twitch-Streamers'>Source code on GitHub</a>"},
-            { id: 3, text: "Created: August & September 2016 (updated January 2019)"},
-          ],
-          locationURL: "https://robertgz.github.io/Twitch-Streamers/"
-        },
+        // {
+        //   id: 7, 
+        //   imageURL: require('../assets/twitch_streamers.png'),
+        //   title: "Twitch Streamers", 
+        //   text: "Created as a project while working through the <a href='https://www.freecodecamp.org/robertgz'>freeCodeCamp</a> curriculum.",
+        //   bullets: [
+        //     { id: 0, text: "Shows use of Bootstrap and HTML"},
+        //     { id: 1, text: "Uses JavaScript, jQuery, and the Twitch API"},
+        //     { id: 2, text: "<a href='https://github.com/robertgz/Twitch-Streamers'>Source code on GitHub</a>"},
+        //     { id: 3, text: "Created: August & September 2016 (updated January 2019)"},
+        //   ],
+        //   locationURL: "https://robertgz.github.io/Twitch-Streamers/"
+        // },
 
         {
           id: 8, 
@@ -179,19 +179,19 @@ export default {
           ],
           locationURL: "https://robertgz.github.io/Wikipedia-Viewer/"
         },
-        {
-          id: 9, 
-          imageURL: require('../assets/local_weather.png'),
-          title: "Local Weather", 
-          text: "Uses an external API to lookup the browser's IP address and location then uses the response to send to another API to get the weather. Created as a project while working through the <a href='https://www.freecodecamp.org/robertgz'>freeCodeCamp</a> curriculum.",
-          bullets: [
-            { id: 0, text: "Shows use of Bootstrap and HTML"},
-            { id: 1, text: "Uses JavaScript, jQuery, ipinfo.io and openweathermap.org API"},
-            { id: 2, text: "<a href='https://github.com/robertgz/Local-Weather'>Source code on GitHub</a>"},
-            { id: 3, text: "Created: August 2016"},
-          ],
-          locationURL: "https://robertgz.github.io/Local-Weather/"
-        },
+        // {
+        //   id: 9, 
+        //   imageURL: require('../assets/local_weather.png'),
+        //   title: "Local Weather", 
+        //   text: "Uses an external API to lookup the browser's IP address and location then uses the response to send to another API to get the weather. Created as a project while working through the <a href='https://www.freecodecamp.org/robertgz'>freeCodeCamp</a> curriculum.",
+        //   bullets: [
+        //     { id: 0, text: "Shows use of Bootstrap and HTML"},
+        //     { id: 1, text: "Uses JavaScript, jQuery, ipinfo.io and openweathermap.org API"},
+        //     { id: 2, text: "<a href='https://github.com/robertgz/Local-Weather'>Source code on GitHub</a>"},
+        //     { id: 3, text: "Created: August 2016"},
+        //   ],
+        //   locationURL: "https://robertgz.github.io/Local-Weather/"
+        // },
 
         {
           id: 10, 
