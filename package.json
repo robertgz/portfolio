@@ -8,7 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "vue": "^2.7.15",
+    "vue": "^3.0.0",
     "vue-gtm": "^2.3.4",
     "vuetify": "^1.5.24"
   },
